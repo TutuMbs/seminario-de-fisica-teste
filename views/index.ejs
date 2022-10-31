@@ -1,0 +1,139 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Seminário Física</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="../src/assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="../src/assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<div class="inner">
+
+							<!-- Logo -->
+								<a href="/" class="logo">
+									<span class="symbol"><img src="images/logo.svg" alt="" /></span><span class="title">Fisica</span>
+								</a>
+
+							<!-- Nav -->
+								<nav>
+									<ul>
+										<li><a href="#menu">Menu</a></li>
+									</ul>
+								</nav>
+
+						</div>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<h2>Menu</h2>
+						<ul>
+							<li><a href="/">Página Inicial</a></li>
+							<li><a href="/IsaacNewton">Isaac Newton</a></li>
+							<li><a href="/neil">Neil</a></li>
+							<li><a href="/tesla">Nikola Tesla</a></li>
+
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+							<header>
+								<h1> Física </h1>
+								<p>Abaixo você poderá ver exemplos de alguns físicos muito famosos que influenciam na vida das pessoas inúmeras vezes no cotidiano.</p>
+							</header>
+							<section class="tiles">
+								<article class="style1">
+									<span class="image">
+										<img src="https://media.discordapp.net/attachments/960884773725831228/1016467181363548241/WhatsApp_Image_2022-09-05_at_18.21.53.jpeg" alt="" />
+									</span>
+									<a href="https://www.canva.com/design/DAFNW2ycEEk/o5e2B9ye08taOnM99XIegw/view?utm_content=DAFNW2ycEEk&utm_campaign=designshare&utm_medium=link&utm_source=publishpresent">
+										<h2>Isaac Newton</h2>
+										<div class="content">
+											<p>Isaac Newton foi um renomado físico, filósofo, cientista, matemático, astrônomo, alquimista e teólogo inglês.</p>
+										</div>	
+									</a>
+								</article>	
+								<article class="style1">
+									<span class="image">
+										<img src="https://media.discordapp.net/attachments/960884773725831228/1024321166132920330/unknown.png" alt="" />
+									</span>
+									<a href="/neil">
+										<h2>Professor Neil</h2>
+										<div class="content">
+											<p>NEIL O MONSTRO</p>
+										</div>	
+									</a>
+								</article>	
+								<article class="style1">
+									<span class="image">
+										<img src="https://media.discordapp.net/attachments/960884773725831228/1026842100802785290/unknown.png?width=1213&height=683" alt="" />
+									</span>
+									<a href="/tesla">
+										<h2>Nikola Tesla</h2>
+										<div class="content">
+											<p>Nikola Tesla foi um inventor, engenheiro eletrotécnico e engenheiro mecânico sérvio...</p>
+										</div>	
+									</a>
+								</article>																																			
+							</section>
+						</div>
+						
+			
+					</div>
+
+					
+						<section id="grid-one" class="grid-one main-bg section">
+							<div class="main-content grid-one-content">
+								<h2 class="grid-main-heading">Comentarios:</h2>
+								<div class="grid">
+									<% for (var n=0; n<dados.length;n++){%>
+										<article>
+											<h3>
+												<%=dados[n].titulo%>
+											</h3>
+											<p>
+												<%=dados[n].texto%>
+											</p>
+										</article>
+										<% } %>
+								</div>
+							</div>
+						</section>
+
+						<div class="grid">
+							<a href="/mygrid">Escreva seu Comentario </a>
+						</div>
+			
+
+
+				<!-- Footer -->
+					<footer id="footer">				
+							<h3 class="inner">Arthur Márcio - 13397</h3>
+							<h3 class="inner">Fernando Alexandre - 14783</h3>
+							<h3 class="inner">Gustavo Fernandes - 13101</h3>
+							<h3 class="inner">Lucas Dias - 14855</h3>
+							<h3 class="inner">Lucas Rodrigues Alves - 12043</h3>
+
+						
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="../src/assets/js/jquery.min.js"></script>
+			<script src="../src/assets/js/browser.min.js"></script>
+			<script src="../src/assets/js/breakpoints.min.js"></script>
+			<script src="../src/assets/js/util.js"></script>
+			<script src="../src/assets/js/main.js"></script>
+
+	</body>
+</html>
